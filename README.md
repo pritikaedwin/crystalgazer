@@ -1,4 +1,3 @@
-# crystalgazer
 ## FIFA 2018 Challenge
 
 **Aim for the challenge is to predict FIFA World Cup 2018 winner.**
