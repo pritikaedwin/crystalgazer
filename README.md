@@ -1,7 +1,7 @@
 # crystalgazer
-FIFA 2018 Challenge
+## FIFA 2018 Challenge
 
-Aim for the challenge is to predict FIFA World Cup 2018 winner.
+**Aim for the challenge is to predict FIFA World Cup 2018 winner.**
 
 Getting Data --> To predict any situation we need backing data and data for this challenge was taken from Kaggle.com where FIFA ranking, fixtures and most importantly results are captured till date.
 The results data is covers years from 1872 world cup till now.
