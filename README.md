@@ -2,11 +2,14 @@
 
 **Aim for the challenge is to predict FIFA World Cup 2018 winner.**
 
-Getting Data --> To predict any situation we need backing data and data for this challenge was taken from Kaggle.com where FIFA ranking, fixtures and most importantly results are captured till date.
+***Getting Data --> 
+
+To predict any situation we need backing data and data for this challenge was taken from Kaggle.com where FIFA ranking, fixtures and most importantly results are captured till date.
 The results data is covers years from 1872 world cup till now.
 The data is easy enough to understand. There are only 9 variables, with self-explanatory names: date, home_team, away_team, home_score, away_score, tournament, city, country, neutral (whether the match was played on neutral ground, or at the home team’s stadium).
 
-Preparing data --> 
+***Preparing data --> 
+
 Historical data is on the number fo goals scored by each team in the past.
 results=pd.read_csv('FIFA-2018-World-cup-predictions-master/datasets/results.csv')
 
@@ -25,7 +28,7 @@ results['winning_team'] = winner
 results['goal_difference'] = np.absolute(results['home_score'] - results['away_score'])
 Results data has been sliced in the process and data is considered from 1930 world cup till 2018.
 
-For 2018 World Cup results -->
+***For 2018 World Cup results -->
 For 2018 FIFA world cup, taken a subset of teams in dataframe to only keep the 32 teams which are qualified for 2018 World Cup.
 
 worldcup_teams = ['Australia', ' Iran', 'Japan', 'Korea Republic', 
@@ -45,7 +48,7 @@ df_teams['match_year'] = year
 df_teams_1930 = df_teams[df_teams.match_year >= 1930]
 
 
-Computing the results --> 
+***Computing the results --> 
 Using Logistic Regression model where given a set of data points , it attempts to predict an outcome (a win or a loss).
 
 logreg = LogisticRegression()
