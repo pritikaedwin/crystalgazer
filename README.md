@@ -36,9 +36,9 @@ Model predicted  draw between Spain and Portugal but also given Spain a high pro
 
 In iterations, we have given set of teams to the model to predict quarters, semi finals and finals.
 
-The model predicted a quarter final between: Portugal vs France, Brazil vs England, Spain vs Argentina and Germany vs Belgium
+The model predicted a quarter final between: Uruguay vs Spain, France vs Argentina, Brazil vs Mexico and England vs Senegal
 
-The semis Portugal vs Brazil and Germany vs Argentina and finals between Brazil vs Germany.
+The semis Spain vs Argentina and Brazil vs England and finals between Brazil vs Argentina.
 
 According to prediction Brazil is going to be World Champions for 2018!
 
@@ -48,5 +48,6 @@ There could be many ways to predict the game. Only time will tell if this model 
 
 Complete code is given in separate file 
 
-            
+Prediction model taken from (https://blog.goodaudience.com/predicting-fifa-world-cup-2018-using-machine-learning-dc07ad8dd576)
+GitHub link : (https://github.com/itsmuriuki/FIFA-2018-World-cup-predictions)
     
