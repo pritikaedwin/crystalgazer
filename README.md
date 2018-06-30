@@ -46,7 +46,7 @@ According to prediction Brazil is going to be World Champions for 2018!
 
 There could be many ways to predict the game. Only time will tell if this model gave the correct predictions :smile:
 
-Complete code is given in separate file 
+Complete code is given in separate file : FIFA world cup python script.txt
 
 Prediction model taken from (https://blog.goodaudience.com/predicting-fifa-world-cup-2018-using-machine-learning-dc07ad8dd576)
 GitHub link : (https://github.com/itsmuriuki/FIFA-2018-World-cup-predictions)
