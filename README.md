@@ -44,7 +44,7 @@ According to prediction Brazil is going to be World Champions for 2018!
 
 ## Conclusion 
 
-There could be many ways to predict the game. Only time will tell if this model gave the correct predictions :
+There could be many ways to predict the game. Only time will tell if this model gave the correct predictions :simple_smile:
 
 Complete code is given in separate file 
 
